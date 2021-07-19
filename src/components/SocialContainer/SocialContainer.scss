@@ -1,0 +1,28 @@
+.container-colors {
+  display: flex;
+  flex-direction: column;
+  width: 33px;
+  height: max-content;
+  background: #ffffff;
+  align-items: left;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #979797;
+  border-style: solid;
+  // box-shadow: 0 0 0.3em #000;
+  margin-top: 1rem;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  .inside-container-colors {
+    margin-top: 0.4rem;
+    margin-left: 0.7rem;
+
+    .logo-social {
+      width: 40px;
+      height: 40px;
+      -webkit-filter: drop-shadow(2px 2px 2px #222);
+      filter: drop-shadow(2px 2px 2px #222);
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.container {
+  width: 40rem;
+  height: max-content;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+
+  @media screen and (max-width: 600px) and (min-width: 300px) {
+    width: 17.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .separator2 {
+    font-size: 16px;
+    color: #595959;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    @media screen and (max-width: 600px) and (min-width: 300px) {
+      margin-left: 10px;
+    }
+
+    &::after {
+      content: "";
+      flex: 1;
+      height: 5px;
+      background: #979797;
+      margin-left: 16px;
+    }
+    .h2-title {
+      //profile title
+      font: 400 18px "Roboto", sans-serif;
+      color: #202020;
+
+      @media screen and (max-width: 600px) and (min-width: 300px) {
+        font: 400 16px "Roboto", sans-serif;
+      }
+    }
+    .profile-icon {
+      width: 20px;
+      height: 20px;
+      margin-left: 1rem;
+      opacity: 0.6;
+    }
+  }
+
+  .inside-container {
+    text-align: left;
+    margin-left: 30px;
+
+    @media screen and (max-width: 600px) and (min-width: 300px) {
+      margin-left: 10px;
+    }
+
+    .inside-container-text {
+      //brief text
+      font: 400 18px "Roboto", sans-serif;
+      color: #202020;
+
+      @media screen and (max-width: 600px) and (min-width: 300px) {
+        //brief text
+        font: 400 16px "Roboto", sans-serif;
+      }
+    }
+  }
+}

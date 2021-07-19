@@ -1,0 +1,113 @@
+.container-colors {
+  display: flex;
+  flex-direction: column;
+  width: 33px;
+  height: max-content;
+  background: #ffffff;
+  align-items: left;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #979797;
+  border-style: solid;
+  // box-shadow: 0 0 0.5rem #000;
+  margin-top: 5rem;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+      filter: drop-shadow(2px 2px 2px #222);
+
+  
+
+  .color1 {
+    width: 2rem;
+    height: 2rem;
+    background: #d8d8d8;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    // border-width: 1px;
+    // border-color: #000;
+    // border-style: solid;
+    // box-shadow: 0 0 0.5rem #000;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+      filter: drop-shadow(2px 2px 2px #222);
+
+    z-index: 1;
+  }
+  .color2 {
+    width: 2rem;
+    height: 2rem;
+    background: #979797;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    // border-width: 1px;
+    // border-color: #000;
+    // border-style: solid;
+    // box-shadow: 0 0 0.5rem #000;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+      filter: drop-shadow(2px 2px 2px #222);
+
+    z-index: 1;
+  }
+  .color3 {
+    width: 2rem;
+    height: 2rem;
+    background: #595959;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    // border-width: 1px;
+    // border-color: #000;
+    // border-style: solid;
+    // box-shadow: 0 0 0.5rem #000;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+      filter: drop-shadow(2px 2px 2px #222);
+
+    z-index: 1;
+  }
+  .color4 {
+    width: 2rem;
+    height: 2rem;
+    background: #202020;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    // border-width: 1px;
+    // border-color: #000;
+    // border-style: solid;
+    // box-shadow: 0 0 0.5rem #000;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+      filter: drop-shadow(2px 2px 2px #222);
+
+    z-index: 1;
+  }
+  .color5 {
+    width: 2rem;
+    height: 2rem;
+    background: #835afd;
+    border-radius: 50%;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    // border-width: 1px;
+    // border-color: #000;
+    // border-style: solid;
+    // box-shadow: 0 0 0.4rem #000;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+      filter: drop-shadow(2px 2px 2px #222);
+
+    z-index: 1;
+  }
+}

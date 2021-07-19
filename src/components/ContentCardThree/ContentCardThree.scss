@@ -1,0 +1,63 @@
+.container-three {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  height: max-content;
+  align-items: left;
+
+  @media screen and (max-width: 600px) and (min-width: 300px) {
+    width: 17rem;
+  }
+
+  .separator-three {
+    display: flex;
+    flex-direction: row;
+    color: #595959;
+    margin: 5px 0;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: center;
+
+    &::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: #979797;
+      margin-left: 10px;
+      margin-top: -10px;
+    }
+
+    .title-three {
+      font: 400 16px "Roboto", sans-serif;
+      color: #595959;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .skills-icon {
+      width: 20px;
+      height: 20px;
+      margin-bottom: 1rem;
+      opacity: 0.6;
+    }
+  }
+
+  .inside-container-three {
+    display: flex;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 0.7rem;
+
+    .job-title-three {
+      font: 400 16px "Roboto", sans-serif;
+      color: #595959;
+      margin-bottom: 0.3rem;
+    }
+    .job-variable-three {
+      font: 400 16px "Roboto", sans-serif;
+      color: #414141;
+      margin-bottom: 0.3rem;
+      margin-left: 0.4rem;
+    }
+  }
+}

@@ -11,6 +11,6 @@ I made it with typescript (.tsx) and sass (.scss).
 
 PT-BR:
 Esse é um modelo de cúrriculo para desenvolvedores e é fácil de editar e personalizar.
-Deixa uma estrela aí bro, que eu agradeço!
+Deixa uma estrela aí parceirx, que eu agradeço!
 
-##>> Para rodar o porjeto, basta digitar o clássico: yarn install (aqui ele já instala todas dependências para você).
+##>> Para rodar o projeto, basta digitar o clássico: yarn install (aqui ele já instala todas dependências para você).

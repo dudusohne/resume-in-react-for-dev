@@ -1,4 +1,3 @@
-import '../ContentCardThree/ContentCardThree.scss';
 import skillsIcon from '../../assets/icons/suitcase3.svg';
 
 import styles from './styles.module.scss';
@@ -30,44 +29,44 @@ export function ContentCardThree(props: CardThreeProps) {
                 <span className={styles.jobVariableThree}>
                     {props.subtitle.employee}
                 </span>
-                
+
             </div>
 
-            <div className="inside-container-three">
-                <span className="job-title-three">
+            <div className={styles.jobVariableThree}>
+                <span className={styles.jobTitleThree}>
                     Job:
                 </span>
-                <span className="job-variable-three">
+                <span className={styles.jobVariableThree}>
                     {props.subtitle.job}
                 </span>
-            </div> 
+            </div>
 
-            <div className="inside-container-three">
-                <span className="job-title-three">
-                Assignments:
+            <div className={styles.insideContainerThree}>
+                <span className={styles.jobTitleThree}>
+                    Assignments:
                 </span>
-                <span className="job-variable-three">
+                <span className={styles.jobVariableThree}>
                     {props.subtitle.assignments}
                 </span>
-            </div> 
+            </div>
 
-            <div className="inside-container-three">
-                <span className="job-title-three">
+            <div className={styles.insideContainerThree}>
+                <span className={styles.jobTitleThree}>
                     Period:
                 </span>
-                <span className="job-variable-three">
+                <span className={styles.jobVariableThree}>
                     {props.subtitle.period}
                 </span>
-            </div> 
+            </div>
 
-            <div className="inside-container-three">
-                <span className="job-title-three">
+            <div className={styles.insideContainerThree}>
+                <span className={styles.jobTitleThree}>
                     Time:
                 </span>
-                <span className="job-variable-three">
+                <span className={styles.jobVariableThree}>
                     {props.subtitle.datetime}
                 </span>
-            </div> 
+            </div>
 
         </div>
     )

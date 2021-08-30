@@ -1,4 +1,3 @@
-import '../SocialContainer/SocialContainer.scss';
 import instagram from '../../assets/icons/instagram (1).png';
 import linkedin from '../../assets/icons/linkedin (2).png';
 import facebook from '../../assets/icons/facebook (1).png';

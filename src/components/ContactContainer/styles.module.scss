@@ -1,4 +1,4 @@
-.container-colors {
+.containerColors {
   display: flex;
   flex-direction: column;
   width: 33px;
@@ -20,11 +20,11 @@
     height: max-content;
   }
   
-  .inside-container-colors {
+  .insideContainerColors {
     margin-top: 0.4rem;
     margin-left: 0.7rem;
 
-    .logo-social {
+    .logoSocial {
       width: 40px;
       height: 40px;
       -webkit-filter: drop-shadow(2px 2px 2px #222);

@@ -1,5 +1,4 @@
 import photo from '../../assets/icons/ed.png';
-import '../LeftContent/LeftContent.scss';
 
 import styles from './styles.module.scss';
 

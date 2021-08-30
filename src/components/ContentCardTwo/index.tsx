@@ -1,4 +1,3 @@
-import '../ContentCardTwo/ContentCardTwo.scss';
 import skillsIcon from '../../assets/icons/codesign.svg';
 
 type CardProps = {

@@ -1,4 +1,4 @@
-.left-container {
+.leftContainer {
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -12,7 +12,7 @@
     width: max-content;
   }
 
-  .photo-img {
+  .photoImg {
     //photo
     width: 200px;
     height: 200px;
@@ -37,12 +37,12 @@
     }
   }
 
-  .left-content-text {
+  .leftContentText {
     //all texts wrapper
     padding: 0;
     width: 20rem;
 
-    .strong-leftcontent {
+    .strongLeftcontent {
       //name
       font: 700 36px "Poppins", sans-serif;
       line-height: 42px;
@@ -56,7 +56,7 @@
       }
     }
 
-    .p-leftcontent {
+    .pLeftcontent {
       //adress and stuff
       font-size: 24px;
       line-height: 32px;

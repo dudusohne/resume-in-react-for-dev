@@ -1,6 +1,8 @@
 import photo from '../../assets/icons/ed.png';
 import '../LeftContent/LeftContent.scss';
 
+import styles from './styles.module.scss';
+
 type LeftContentProps = {
     name: string;
     age: number;
@@ -11,13 +13,13 @@ type LeftContentProps = {
 
 export function LeftContent(props: LeftContentProps) {
     return (
-        <div className="left-container">
+        <div className={styles.leftContainer}>
            
-                <img src={photo} alt="photo1" className="photo-img" />
+                <img src={photo} alt="photo1" className={styles.photoImg} />
 
-            <div className="left-content-text">
-                <strong className="strong-leftcontent">{props.name}</strong>
-                <p className="p-leftcontent">
+            <div className={styles.leftContentText}>
+                <strong className={styles.strongLeftcontent}>{props.name}</strong>
+                <p className={styles.pLeftcontent}>
                     Age: {props.age}y <br></br>
                     Adress: {props.adress} <br></br>
                     City/State: {props.city} <br></br>

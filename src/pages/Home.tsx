@@ -3,18 +3,15 @@ import { ContentCard } from '../components/ContentCard/ContentCard';
 import { ContentCardTwo } from '../components/ContentCardTwo/ContentCardTwo';
 import { ContentCardThree } from '../components/ContentCardThree/ContentCardThree';
 import { ColorContainer } from '../components/ColorContainer/ColorContainer';
-import { SocialContainer } from '../components/SocialContainer/SocialContainer';
+import { SocialContainer } from '../components/SocialContainer';
 import { ContactContainer } from '../components/ContactContainer/ContactContainer';
 
 import '../styles/content.scss';
 
 export function Home() {
     return (
-
         <div id="page-auth">
-
             <aside>
-
                 <LeftContent
                     name="User Name"
                     age={99}
@@ -24,7 +21,6 @@ export function Home() {
                 />
 
             </aside>
-
             <main>
                 <div className="second-content">
                     <ContentCardTwo
@@ -44,7 +40,6 @@ export function Home() {
                     <SocialContainer />
                     <ContactContainer />
                 </div>
-
                 <div className="main-content">
                     <ContentCard
                         title="Profile"
@@ -90,12 +85,8 @@ export function Home() {
                             datetime: "5 months",
                         }}
                     />
-
                 </div>
-
             </main>
-
         </div>
-
     )
 }

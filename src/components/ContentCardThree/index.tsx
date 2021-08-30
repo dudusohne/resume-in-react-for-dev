@@ -1,6 +1,8 @@
 import '../ContentCardThree/ContentCardThree.scss';
 import skillsIcon from '../../assets/icons/suitcase3.svg';
 
+import styles from './styles.module.scss';
+
 type CardThreeProps = {
     title: string;
     subtitle: {
@@ -15,17 +17,17 @@ type CardThreeProps = {
 export function ContentCardThree(props: CardThreeProps) {
     return (
 
-        <div className="container-three">
-            <div className="separator-three">
-                <h1 className="title-three">{props.title}</h1>
-                <img src={skillsIcon} alt="skills-icon" className="skills-icon" />
+        <div className={styles.containerThree}>
+            <div className={styles.separatorThree}>
+                <h1 className={styles.titleThree}>{props.title}</h1>
+                <img src={skillsIcon} alt="skills-icon" className={styles.skillsIcon} />
             </div>
 
-            <div className="inside-container-three">
-                <span className="job-title-three">
+            <div className={styles.insideContainerThree}>
+                <span className={styles.jobTitleThree}>
                     Employee:
                 </span>
-                <span className="job-variable-three">
+                <span className={styles.jobVariableThree}>
                     {props.subtitle.employee}
                 </span>
                 

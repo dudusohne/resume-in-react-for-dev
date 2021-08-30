@@ -1,7 +1,7 @@
-import { LeftContent } from '../components/LeftContent/LeftContent';
+import { LeftContent } from '../components/LeftContent';
 import { ContentCard } from '../components/ContentCard/ContentCard';
-import { ContentCardTwo } from '../components/ContentCardTwo/ContentCardTwo';
-import { ContentCardThree } from '../components/ContentCardThree/ContentCardThree';
+import { ContentCardTwo } from '../components/ContentCardTwo';
+import { ContentCardThree } from '../components/ContentCardThree';
 import { ColorContainer } from '../components/ColorContainer/ColorContainer';
 import { SocialContainer } from '../components/SocialContainer';
 import { ContactContainer } from '../components/ContactContainer/ContactContainer';
